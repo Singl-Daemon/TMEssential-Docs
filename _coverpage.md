@@ -2,7 +2,7 @@
 
 ![logo](https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/202009/_media/icon.svg)
 
-# TMEssential <small>3.5</small>
+# TMEssential <small>1.5.0</small>
 
 > 轻量，开源，老牌强大的多功能基础插件
 

@@ -8,3 +8,4 @@
     - [计分板用户解决方案](wcnm.md#计分板用户解决方案)
   - [较严重的崩溃问题](wcnm.md#较严重的崩溃问题)
     - [Python引擎崩溃](wcnm.md#python引擎崩溃)
+- [群内提问技巧](/question.md)
