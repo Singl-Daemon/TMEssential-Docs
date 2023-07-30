@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/202009/_media/icon.svg)
+![logo](https://img1.imgtp.com/2023/07/30/3ucaKszm.png)
 
 # TMEssential <small>1.5.0</small>
 

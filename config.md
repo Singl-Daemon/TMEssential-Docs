@@ -59,9 +59,9 @@ TMEssential 的配置文件使用 json 存储，json 易读性比较好，有一
     // 玩家可自定义的传送点，随时可传送
     "Enable": true, // 模块开关
     "MaxHome": 3, // 最大可设置的home的数量
-    "SaveRequiredMoney": 0, //设置home耗费的经济
-    "GoHomeRequiredMoney": 0, //前往home耗费的经济
-    "DelHomeBackOffMoney": 0 //删除homo(察觉)返还的经济
+    "SaveRequiredMoney": 0, // 设置home耗费的经济
+    "GoHomeRequiredMoney": 0, // 前往home耗费的经济
+    "DelHomeBackOffMoney": 0 // 删除homo(察觉)返还的经济
   },
   "Money": {
     // 经济模块配置
