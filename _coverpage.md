@@ -1,0 +1,14 @@
+<!-- _coverpage.md -->
+
+![logo](https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/202009/_media/icon.svg)
+
+# TMEssential <small>3.5</small>
+
+> 轻量，开源，老牌强大的多功能基础插件
+
+- 👍 部署简单,对用户友好
+- 😉 功能强大,老牌好用
+- 🚶 开源免费,跑路了你也能自己维护(什
+
+[🎈 Gitee](https://gitee.com/timidine/mcbe-lite-loader-script-engine-tmessential)
+[🚀 Get Started](/README.md)
