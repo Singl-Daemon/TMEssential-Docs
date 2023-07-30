@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](https://img1.imgtp.com/2023/07/30/3ucaKszm.png)
+![logo](https://img1.imgtp.com/2023/07/30/e7WvnlC7.png)
 
 # TMEssential <small>1.5.0</small>
 
