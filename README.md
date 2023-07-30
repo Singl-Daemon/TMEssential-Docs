@@ -10,7 +10,10 @@ TMEssential 是 JavaScript 插件,在 LiteLoader 中由内部的脚本引擎来�
 
 TMEssential 可在 Gitee 下载,你在 MineBBS 买完也会跳转到 Gitee 下载
 
-~~多花 80 金粒哈哈~~
+这里建议有能力的支持一下，毕竟插件免费
+
+![提米:你好](https://img1.imgtp.com/2023/07/30/4XiAHFJb.png)
+![提米:6](https://img1.imgtp.com/2023/07/30/1CLEOrLS.png)
 
 这里是下载地址:
 https://gitee.com/timidine/mcbe-lite-loader-script-engine-tmessential/releases

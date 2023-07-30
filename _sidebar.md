@@ -2,6 +2,7 @@
   - [下载插件](README.md#下载插件)
   - [安装插件](README.md#安装插件)
 - [配置文件详解](config.md)
+  - [TMEssential 配置文件](config.md#tmessential-配置文件)
 - [常见问题](wcnm.md)
   - [经济类问题](wcnm.md#经济类问题)
     - [LLMoney用户解决方案](wcnm.md#llmoney用户解决方案)
