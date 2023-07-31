@@ -1,6 +1,6 @@
 # 群内反馈的流程
 
-此处引用LiteLoaderBDS群提问的艺术，  
+此处引用 LiteLoaderBDS 群提问的艺术，  
 按照此图的流程可以节省他人时间也可以尽快解决你的问题！
 
 <!-- 缩放图片 -->
@@ -9,7 +9,6 @@
  • 热门问题一般会在**群公告**给出解释以及解决方法  
  • 如果你仍然不知道如何正确提问，
 [请点击此处](https://github.com/oldratlee/translations/blob/master/how-to-ask-questions-the-smart-way/README.md)
-
 
 <!-- ## 截图要截全
 

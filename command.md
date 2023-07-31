@@ -65,9 +65,9 @@
 /money set <playerName:string> <Num:int> // 设置某人的经济(仅op)
 /money reduce <playerName:string> <Num:int> // 扣除某人的经济(仅op)
 ```
-> [!TIP|style:flat]
-> 在LLMoney模式下部分命令将直接使用LLMoney内置命令而不是TMEssential的
 
+> [!TIP|style:flat]
+> 在 LLMoney 模式下部分命令将直接使用 LLMoney 内置命令而不是 TMEssential 的
 
 ## Notice 相关命令
 
