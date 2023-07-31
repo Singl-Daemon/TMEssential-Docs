@@ -1,4 +1,4 @@
-- [🚀快速开始](README.md)
+- [🚀快速开始](deploy.md)
   - [🪜下载插件](README.md#下载插件)
   - [🛠️安装插件](README.md#安装插件)
 - [📔配置和数据文件详解](config.md)

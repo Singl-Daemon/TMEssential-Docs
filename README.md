@@ -1,40 +1,103 @@
-# 快速开始
+# TMEssential文档
 
-> [!TIP|style:flat]
-> TMEssential 是一个非常炸裂的插件，这是我要提醒你的(
+## 为什么选择TMEssential?
 
-TMEssential 是 JavaScript 插件,在 LiteLoader 中由内部的脚本引擎来加载.
+~~轻量(迫真)~~，**开源免费**，**高度可自定义**等等之外
 
-脚本插件的安装相对来说比较简单,我相信你可以成功的
+你甚至可以用来**开服**！
 
-## 下载插件
+## TMEssential都有哪些功能?
 
-TMEssential 可在 Gitee 下载,你在 MineBBS 买完也会跳转到 Gitee 下载
+1. Economic_core (经济核心,提供人性化的GUI
 
-这里建议有能力的支持一下，毕竟插件免费
+2. **TPA (玩家互传，基础功能**
 
-![提米:你好](https://img1.imgtp.com/2023/07/30/4XiAHFJb.png)
-![提米:6](https://img1.imgtp.com/2023/07/30/1CLEOrLS.png)
+3. **HOME (玩家传送点**
 
-这里是下载地址:
-https://gitee.com/timidine/mcbe-lite-loader-script-engine-tmessential/releases
+4. **BACK (返回死亡点&记录死亡点**
 
-在 Gitee 的发行版下载页面中,越靠上的发行版本越新.我个人建议你下载最新的版本,除非特殊需要
+5. WARP (公共传送点
 
-下载页面里有两种选择:
+6. DynamicMotd (动态服务器motd
 
-1. TMET.llplugin
-2. TMEssential.js
+7. Notice (公告
 
-其实你下哪个都行,但是切记不能俩一起安装.
+8. **Shop (商店**
 
-> [!NOTE|style:flat]
-> 否则你会看见控制台命令冲突满江红(
+9. **TPR (随机传送**
 
-## 安装插件
+10. RefreshChuck (刷新客户端区块
 
-这个很简单,你把你下到的东西丢入一个叫作`plugins`的文件夹,然后想办法重启服务器就行了
+11. FarmLandProtect (耕地保护
 
-下次开服时如果看见 TMEssential 的 Logo 正常出现了,且控制台没有多出来的 ERROR,那么就说明你安装成功了
 
-如果多了红色错误,那么请去[常见问题](/wcnm.md)看看,说不定就解决了呢
+为生存服务器**量身定制**，所有功能**均可自定义**
+插件开源，你甚至可以在**源码**层面**自定义**
+
+
+## 如何安装和配置
+
+
+这玩意太好了，我该怎么用呢？
+
+现在前往[安装指南](/deploy.md)即可快速简单地部署
+
+安装后你可以前往[配置和数据文件详解](/config.md)和[常见问题页](/wcnm.md),进行基础配置和错误排查
+
+Enjoy it!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~~你知道吗: 提米自称是男的，反正我不信~~
