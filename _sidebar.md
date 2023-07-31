@@ -1,6 +1,6 @@
 - [🚀 快速开始](deploy.md)
-  - [🪜 下载插件](README.md#下载插件)
-  - [🛠️ 安装插件](README.md#安装插件)
+  - [🪜 下载插件](deploy.md#下载插件)
+  - [🛠️ 安装插件](deploy.md#安装插件)
   - [🤔 常见问题](wcnm.md)
     - [💰 经济类问题](wcnm.md#经济类问题)
       - [🚗LLMoney 用户解决方案](wcnm.md#llmoney用户解决方案)
