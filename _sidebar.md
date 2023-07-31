@@ -14,6 +14,18 @@
     - [🏪商店配置文件说明](config.md#商店配置文件说明)
     - [🕹️玩家互传偏好设置文件说明](config.md#玩家互传偏好设置文件说明)
     - [🗺️地标配置文件说明](config.md#地标配置文件说明)
+- [📘插件命令详解](/command.md)
+  - [📑语言相关命令](command.md#语言相关命令)
+  - [🤼‍♂️TPA相关命令](command.md#TPA-相关命令)
+  - [🏠Home相关命令](command.md#Home-相关命令)
+  - [🪄Warp相关命令](command.md#Warp-相关命令)
+  - [☠️Back相关命令](command.md#Back-相关命令)
+  - [🪙Money相关命令](command.md#money-相关命令)
+  - [📒Notice相关命令](command.md#notice-相关命令)
+  - [🏪Shop相关命令](command.md#Shop-相关命令)
+  - [🗺️TPR相关命令](command.md#tpr-相关命令)
+  - [🎯刷新区块命令](command.md#刷新区块命令)
+  - [💻控制台命令](command.md#控制台命令)
 
 
 - [🤔常见问题](wcnm.md)
