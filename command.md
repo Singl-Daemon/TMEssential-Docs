@@ -28,11 +28,11 @@
 /home go <homeName:string> // 去往某个家
 /home add <homeName:string> // 添加一个家
 /home del <homeName:string> // 删除某个家
-/homeas // 打开home管理菜单(仅op
-/homeas <playerName:string> ls // 查看某人的家列表(仅op
-/homeas <playerName:string> go <homeName:string> // 去往某人的某个家(仅op
-/homeas <playerName:string> add <homeName:string> // 给某人添加一个家(仅op
-/homeas <playerName:string> del <homeName:string> // 让某人痛失一个家(仅op
+/homeas // 打开home管理菜单(仅op)
+/homeas <playerName:string> ls // 查看某人的家列表(仅op)
+/homeas <playerName:string> go <homeName:string> // 去往某人的某个家(仅op)
+/homeas <playerName:string> add <homeName:string> // 给某人添加一个家(仅op)
+/homeas <playerName:string> del <homeName:string> // 让某人痛失一个家(仅op)
 ```
 
 ## Warp 相关命令
@@ -41,14 +41,14 @@
 /warp // 打开warp菜单
 /warp ls // 列出传送点
 /warp go <warpName:string> //  去往某传送点
-/warp add <warpName:string> // 添加一个传送点(仅op
-/warp del <warpName:string> // 删除某传送点(仅op
+/warp add <warpName:string> // 添加一个传送点(仅op)
+/warp del <warpName:string> // 删除某传送点(仅op)
 ```
 
 ## Back 相关命令
 
 ```mccommand
-/back // 前往最近的死亡点(这里的最近是时间上不是距离上
+/back // 前往最近的死亡点(这里的最近是时间上不是距离上)
 /death // 查看前几次的死亡信息
 ```
 
@@ -62,7 +62,7 @@
 /money pay <playerName:string> <Num:int> // 给某人打钱
 /money query [playerName:string] // 查询自己或者某人的经济
 /money add <playerName:string> <Num:int> // 给某人添加经济(仅op)
-/money set <playerName:string> Num:int // 设置某人的经济(仅op)
+/money set <playerName:string> <Num:int> // 设置某人的经济(仅op)
 /money reduce <playerName:string> <Num:int> // 扣除某人的经济(仅op)
 ```
 > [!TIP|style:flat]
