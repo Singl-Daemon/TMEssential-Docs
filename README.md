@@ -1,6 +1,7 @@
 # 快速开始
 
-> TMEssential 是一款非常炸裂的插件,这是你要知道的(
+> [!TIP|style:flat]
+> TMEssential 是一个非常炸裂的插件，这是我要提醒你的(
 
 TMEssential 是 JavaScript 插件,在 LiteLoader 中由内部的脚本引擎来加载.
 
@@ -27,6 +28,7 @@ https://gitee.com/timidine/mcbe-lite-loader-script-engine-tmessential/releases
 
 其实你下哪个都行,但是切记不能俩一起安装.
 
+> [!NOTE|style:flat]
 > 否则你会看见控制台命令冲突满江红(
 
 ## 安装插件

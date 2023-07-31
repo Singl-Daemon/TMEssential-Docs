@@ -1,7 +1,10 @@
 # 配置和数据文件详解
 
 ## TMEssential 配置文件
+
 TMEssential 的配置文件使用 json 存储，json 易读性比较好，有一点英语知识都能看懂
+
+> [!TIP|style:flat] 配置文件使用 UTF-8 编码格式存储,使用记事本可能会被莫名其妙改的多了个 BOM
 
 总的配置文件长这样：
 
@@ -144,3 +147,202 @@ TMEssential 的配置文件使用 json 存储，json 易读性比较好，有一
   }
 }
 ```
+
+> [!ATTENTION|style:flat] **警告:绝对不要用记事本改,否则会发生编码错误问题**<br/> **必须使用 VSCode.Subline Text 等专业编辑器**
+
+## 数据目录结构
+
+在`plugins`文件夹会有一个叫 Timiya 的文件夹~~作者特殊标识(雾~~,里面的数据结构如下:
+
+```filetree
+Timiya/
+├─config/   // 配置文件夹，一般提米系的插件配置文件都在这里
+│      TMEssential.json    // TMEssential的配置文件
+│
+├─data/    // 数据文件夹，很多数据存放在这里
+│      deathlist.json  // 持久化保存死亡点
+│      history.json  // 转账记录文件
+│      homelist.json  //玩家的home列表
+│      langsetting.json  // 玩家的语言偏好设置
+│      noticedata.json  // 关于公告的数据文件
+│      offlineMoney.json  // 离线经济存储文件
+│      shopdata.json  // 商店配置文件
+│      tpasetting.json  // 玩家互传的偏好设置
+│      warplist.json  // 地标配置文件
+│
+└─lang/  // 语言文件夹，有语言文件可以放在这个文件夹里
+       zh_CN.json  // 默认的简体中文语言文件
+```
+
+## 插件数据文件说明
+
+### 死亡点数据文件说明
+
+todo(我这没找着文件)
+
+### 转账记录数据文件说明
+
+todo(我这没找着文件)
+
+### 玩家 home 列表文件说明
+
+用本人的数据文件做个注释:
+
+```json
+{
+  "SilverSlinky606": {
+    // 玩家名，名下可以有多个home(看你配置文件喽
+    "test": {
+      // 玩家设置的home的名字
+      "x": 49524.9, // x
+      "y": 65.6, // y
+      "z": 50752.2, // z
+      "dimid": 0 // dimid：0为主世界，1为地狱，2为末地
+    }
+  }
+}
+```
+
+> [!ATTENTION|style:flat] 警告：如果你不会 json 的话看看就行了，改了出事后果自负
+
+### 语言偏好数据文件说明
+
+todo(我这还是没有)
+
+### 公告数据文件说明
+
+todo(没有没有没有)
+
+### 离线经济存储文件说明
+
+举个例子:
+
+```json
+{
+  "1145141919810": 114514
+  // 前面的数字是玩家的xuid，正版验证下每个玩家的xuid是唯一的，相当于身份证号码
+  // 后面的数据是玩家的经济
+}
+```
+
+> [!ATTENTION|style:flat] 警告：如果你不会 json 的话看看就行了，改了出事后果自负
+
+### 商店配置文件说明
+
+> 你们肯定是奔着这个来的
+
+同样的，举个例子:
+
+```json
+{
+  "Buy": [
+    //购买菜单,以下内容仅会出现在购买表单中
+    {
+      "type": "group", //类型 (group为分类
+      "data": [
+        // 按钮数据 type为group为数组
+        // 这里原文可能有点晦涩难懂，你就可以理解为data里面是一堆物品的集合
+        {
+          "name": "空气", // 按钮名称
+          "type": "exam", // 类型 (exam 为商品
+          "data": {
+            // 看上面的type，是exam就是该商品的数据
+            "type": "minecraft:air", // 物品命名空间ID，同样可以百度一下
+            "aux": 0, // 物品的特殊值，这个可以百度一下
+            "remark": "", //商品备注
+            "money": 11 // 购买一个所需的经济
+          }
+        },
+        {
+          "name": "bread", // 按钮名称
+          "type": "exam", // 类型 (exam 为商品
+          "data": {
+            //看上面的type，是exam就是该商品的数据
+            "type": "minecraft:bread", // 物品命名空间ID，同样可以百度一下
+            "aux": 0, // 物品的特殊值，这个可以百度一下
+            "remark": "", // 商品备注
+            "money": 2 // 购买一个所需的经济
+          }
+        }
+      ]
+    },
+    {
+      "name": "air", // 按钮名称
+      "type": "exam", // 类型（exam为商品
+      "data": {
+        // 数据 (type为exam为物品对象
+        // 这里明显与上面不同，说明了data内数据实际上由type决定
+        // group为数组(集合)，exam为单物品
+        "type": "minecraft:air", // 物品命名空间ID，同样可以百度一下
+        "aux": 0, // 物品的特殊值，这个可以百度一下
+        "remark": "", // 商品备注
+        "money": 11 // 购买一个所需的经济
+      }
+    }
+  ],
+  "Sell": [
+    // 卖出菜单，以下内容仅会在售出菜单出现
+    // 这里和上面Buy的很像，故不写注释
+    {
+      "name": "xx分类",
+      "type": "group",
+      "data": [
+        {
+          "name": "空气",
+          "type": "exam",
+          "data": {
+            "type": "minecraft:air",
+            "aux": 0,
+            "remark": "",
+            "money": 11 // 回收一个所获得的经济
+          }
+        },
+        {
+          "name": "bread",
+          "type": "exam",
+          "data": {
+            "type": "minecraft:bread",
+            "aux": 0,
+            "remark": "",
+            "money": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "redstone",
+      "type": "exam",
+      "data": {
+        "type": "minecraft:redstone",
+        "aux": 0,
+        "remark": "",
+        "money": 11
+      }
+    }
+  ]
+}
+```
+
+> [!ATTENTION|style:flat] **警告:绝对不要用记事本改,否则会发生编码错误问题**<br/> **必须使用 VSCode.Subline Text 等专业编辑器**
+
+### 玩家互传偏好设置文件说明
+
+又没找着
+
+### 地标配置文件说明
+
+> 这个找着了
+
+```json
+{
+  "§6通天火柴盒": {
+    // 传送点的名字(只是个示例，不要在意
+    "x": 10081.3, // x
+    "y": 64, // y
+    "z": 10617.45, // z
+    "dimid": 0 // dimid：0为主世界，1为地狱，2为末地
+  }
+}
+```
+
+> [!ATTENTION|style:flat] 警告：如果你不会 json 的话看看就行了，改了出事后果自负

@@ -6,8 +6,8 @@
 
 ## 经济类问题
 
-首先出场的是经典的,让群 u 津津乐道,萌新一脸懵逼,管理血压升高的问题
-这个问题**比较常见**,会在你装完插件后出现:
+> [!NOTE|style:flat]
+> 现只列举一个错误,别问,问就是没看见第二个
 
 `15:26:50 ERROR [LiteLoader] Command "money" already exists
 `<br/>
@@ -18,9 +18,13 @@ LLMoney 是 LiteLoaderBDS 的**经济核心**,提供了`/money`等一系列命�
 
 在没有经济插件的地方,一个叫作`计分板`的东西被用做经济核心,存储玩家经济等一系列数据
 
-TMEssential 的经济模块提供了计分板和 LLMoney 两种模式,都可以对当前的经济核心提供 GUI 图形界面等强大功能
+TMEssential 的经济模块提供了计分板和 `LLMoney` 两种模式,都可以对当前的经济核心提供 GUI 图形界面等强大功能
 
-### LLMoney用户解决方案
+TMEssential 默认为计分板模式,注册了`/money`命令(`scoreboard`虽然也有单独的命令,但不是给玩家用的)
+
+LLMoney 也注册了`/money`命令,二者发生冲突,引发错误
+
+### LLMoney 用户解决方案
 
 要想修复这个问题,我们要前往`.\plugins\Timiya\config\TMEssential.json`,改动一些配置
 
@@ -127,16 +131,7 @@ TMEssential 的经济模块提供了计分板和 LLMoney 两种模式,都可以�
 
 如果你不知道你的经济类型,那就把`MoneyType`后面的`score`改成`llmoney`,保存后重启服务器即可
 
-**警告:绝对不要用记事本改,否则会发生编码错误问题**<br/>
-**必须使用 VSCode.Subline Text 等专业编辑器**
-
-**警告:绝对不要用记事本改,否则会发生编码错误问题**<br/>
-**必须使用 VSCode.Subline Text 等专业编辑器**
-
-**警告:绝对不要用记事本改,否则会发生编码错误问题**<br/>
-**必须使用 VSCode.Subline Text 等专业编辑器**
-
-**重要的事情说三遍**
+> [!ATTENTION|style:flat] **警告:绝对不要用记事本改,除非你知道你在做什么**<br/> **必须使用 VSCode.Subline Text 等专业编辑器**
 
 经济类型为 llmoney 的同上
 
@@ -235,8 +230,7 @@ TMEssential 的经济模块提供了计分板和 LLMoney 两种模式,都可以�
 
 现在,把他的 enabled 后面的 true 改成 false,Ctrl+S 保存,退出,重启服务器
 
-**警告:绝对不要用记事本改,否则会发生编码错误问题**<br/>
-**必须使用 VSCode.Subline Text 等专业编辑器**
+> [!ATTENTION|style:flat] **警告:绝对不要用记事本改,否则会发生编码错误问题**<br/> **必须使用 VSCode.Subline Text 等专业编辑器**
 
 ## 较严重的崩溃问题
 
@@ -244,7 +238,8 @@ TMEssential 的经济模块提供了计分板和 LLMoney 两种模式,都可以�
 
 那么崩溃就要从别的地方找原因了
 
-### Python引擎崩溃
+### Python 引擎崩溃
+
 比如 wine 用户,部分非 Windows 环境的面板用户,或者**尊贵的简幻欢用户**常见的问题:
 
 遇到类似于`Python` `random`字样的错误,服务器无法开启
@@ -262,11 +257,10 @@ LL 貌似没有搞好按需启动脚本引擎~~要挨打惹~~,只要有一个脚
 
 删掉`LiteLoader.Python.dll`,重启服务器
 
-**注意:删除之前先把服务器关掉**
-
+> [!NOTE|style:flat] > **注意:删除之前先把服务器关掉**
 
 ### 其他问题
 
-你要是看见插件生成了xxxxxxx.TMETERROR文件,那就看群公告丢进对应的文件夹,反馈给作者
+你要是看见插件生成了 xxxxxxx.TMETERROR 文件,那就看群公告丢进对应的文件夹,反馈给作者
 
-没生成或者只有红字且与TMET有关,那就截图反馈到群里
+没生成或者只有红字且与 TMET 有关,那就截图反馈到群里
