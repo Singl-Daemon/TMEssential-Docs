@@ -4,7 +4,7 @@
 按照此图的流程可以节省他人时间也可以尽快解决你的问题！
 
 <!-- 缩放图片 -->
-<p><img src="https://img1.imgtp.com/2023/07/31/8N8eLxNs.jpg" alt="0x114514.jpg" style="width:80%;"></p>
+<p><img src="https://img1.imgtp.com/2023/07/31/8N8eLxNs.jpg" alt="0x114514.jpg" style="width:50%;"></p>
 
  • 热门问题一般会在**群公告**给出解释以及解决方法  
  • 如果你仍然不知道如何正确提问，
