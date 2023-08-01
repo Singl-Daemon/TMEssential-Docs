@@ -1,6 +1,6 @@
 function moveDDT() {
     const DDT = document.getElementById("docsify-darklight-theme");
-    DDT.style.bottom = '480px;'
+    DDT.style.top = '620px;'
 }
 
 document.addEventListener('DOMContentLoaded', moveDDT);
