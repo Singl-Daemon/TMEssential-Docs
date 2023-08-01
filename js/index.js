@@ -1,2 +1,6 @@
-const img = document.e(".markdown-section p img:nth=child(1)");
-img.classList.add("width");
+function moveDDT() {
+    const DDT = document.getElementById("docsify-darklight-theme");
+    DDT.style.bottom = '480px;'
+}
+
+document.addEventListener('DOMContentLoaded', moveDDT);
