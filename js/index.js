@@ -3,4 +3,4 @@ function moveDDT() {
     DDT.style.top = '620px;'
 }
 
-document.addEventListener('DOMContentLoaded', moveDDT);
+document.addEventListener('DOMContentLoaded', setTimeout(() => moveDDT, 1800));
