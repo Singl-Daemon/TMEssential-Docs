@@ -17,7 +17,7 @@ TMEssential 可在 Gitee 下载,你在 MineBBS 买完也会跳转到 Gitee 下�
 ![提米:6](https://img1.imgtp.com/2023/07/30/1CLEOrLS.png)
 
 这里是下载地址:
-https://gitee.com/timidine/mcbe-lite-loader-script-engine-tmessential/releases
+<https://gitee.com/timidine/mcbe-lite-loader-script-engine-tmessential/releases>
 
 在 Gitee 的发行版下载页面中,越靠上的发行版本越新.我个人建议你下载最新的版本,除非特殊需要
 
