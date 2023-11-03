@@ -1,12 +1,41 @@
 # 配置和数据文件详解
 
+> [!Warning|style:flat]
+> 任何对于配置文件的操作都必须使用专业的文本编辑器
+
+> 只用记事本更改早晚出事
+
+## 数据目录结构
+
+在`plugins`文件夹会有一个叫 Timiya 的文件夹~~作者特殊标识(雾~~,里面的数据结构如下:
+
+```filetree
+Timiya/
+├─config/   // 配置文件夹，一般提米系的插件配置文件都在这里
+│      TMEssential.json    // TMEssential的配置文件
+│
+├─data/    // 数据文件夹，很多数据存放在这里
+│      deathlist.json  // 持久化保存死亡点
+│      history.json  // 转账记录文件
+│      homelist.json  //玩家的home列表
+│      langsetting.json  // 玩家的语言偏好设置
+│      noticedata.json  // 关于公告的数据文件
+│      offlineMoney.json  // 离线经济存储文件
+│      shopdata.json  // 商店配置文件
+│      tpasetting.json  // 玩家互传的偏好设置
+│      warplist.json  // 地标配置文件
+│
+└─lang/  // 语言文件夹，有语言文件可以放在这个文件夹里
+       zh_CN.json  // 默认的简体中文语言文件
+```
+
 ## TMEssential 配置文件
 
-TMEssential 的配置文件使用 json 存储，json 易读性比较好，有一点英语知识都能看懂
+TMEssential 的配置文件使用 json 存储，json 易读性较好
 
 > [!TIP|style:flat] 配置文件使用 UTF-8 编码格式存储,使用记事本可能会被莫名其妙改的多了个 BOM
 
-总的配置文件长这样：
+全局配置文件为 `TMEssential.json`，位于 `TMEssential/config` 目录下
 
 ```json
 {
@@ -148,34 +177,6 @@ TMEssential 的配置文件使用 json 存储，json 易读性比较好，有一
 }
 ```
 
-> [!ATTENTION|style:flat] **警告:绝对不要用记事本改,否则会发生编码错误问题**<br/> **必须使用 VSCode.Subline Text 等专业编辑器**
-
-## 数据目录结构
-
-在`plugins`文件夹会有一个叫 Timiya 的文件夹~~作者特殊标识(雾~~,里面的数据结构如下:
-
-```filetree
-Timiya/
-├─config/   // 配置文件夹，一般提米系的插件配置文件都在这里
-│      TMEssential.json    // TMEssential的配置文件
-│
-├─data/    // 数据文件夹，很多数据存放在这里
-│      deathlist.json  // 持久化保存死亡点
-│      history.json  // 转账记录文件
-│      homelist.json  //玩家的home列表
-│      langsetting.json  // 玩家的语言偏好设置
-│      noticedata.json  // 关于公告的数据文件
-│      offlineMoney.json  // 离线经济存储文件
-│      shopdata.json  // 商店配置文件
-│      tpasetting.json  // 玩家互传的偏好设置
-│      warplist.json  // 地标配置文件
-│
-└─lang/  // 语言文件夹，有语言文件可以放在这个文件夹里
-       zh_CN.json  // 默认的简体中文语言文件
-```
-
-## 插件数据文件说明
-
 ### 死亡点数据文件说明
 
 todo(我这没找着文件)
@@ -203,8 +204,6 @@ todo(我这没找着文件)
 }
 ```
 
-> [!ATTENTION|style:flat] 警告：如果你不会 json 的话看看就行了，改了出事后果自负
-
 ### 语言偏好数据文件说明
 
 todo(我这还是没有)
@@ -225,13 +224,9 @@ todo(没有没有没有)
 }
 ```
 
-> [!ATTENTION|style:flat] 警告：如果你不会 json 的话看看就行了，改了出事后果自负
+> [!ATTENTION|style:flat] 通常来说不能更改此配置，后果自负
 
 ### 商店配置文件说明
-
-> 你们肯定是奔着这个来的
-
-同样的，举个例子:
 
 ```json
 {
@@ -323,26 +318,20 @@ todo(没有没有没有)
 }
 ```
 
-> [!ATTENTION|style:flat] **警告:绝对不要用记事本改,否则会发生编码错误问题**<br/> **必须使用 VSCode.Subline Text 等专业编辑器**
-
 ### 玩家互传偏好设置文件说明
 
-又没找着
+没找着
 
 ### 地标配置文件说明
 
-> 这个找着了
-
 ```json
 {
-  "§6通天火柴盒": {
-    // 传送点的名字(只是个示例，不要在意
-    "x": 10081.3, // x
-    "y": 64, // y
-    "z": 10617.45, // z
-    "dimid": 0 // dimid：0为主世界，1为地狱，2为末地
+  "§1提米家": {
+    // 传送点的名字
+    "x": 114514.1, // x
+    "y": -255, // y
+    "z": 1919.81, // z
+    "dimid": 1 // dimid：0为主世界，1为地狱，2为末地
   }
 }
 ```
-
-> [!ATTENTION|style:flat] 警告：如果你不会 json 的话看看就行了，改了出事后果自负
