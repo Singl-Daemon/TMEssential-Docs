@@ -2,6 +2,23 @@
 
 这里将列举一些比较常见的问题以及解决方法
 
+### TMEsstntial 无法启动
+
+无相关日志，表现为控制台根本没有输出TMEssential的字样并且功能无法使用
+
+问题起因: 玄学
+
+解决方法: 强制启动LL的脚本引擎并检查脚本引擎和TMEssential源文件是否完好且可加载
+
+### [LiteLoader] Fai1 in Loading Script Plugin！
+
+![有憨憨投的图片](https://picst.sunbangyan.cn/2023/11/03/9c0701a72dc9152a59cd5ac5de1378f8.png "img")
+
+感谢OxygenSpace提供的图片
+
+问题起因: TMEssntial文件损坏或使用非专业编辑器编辑过
+
+解决方法: 重新安装
 ###  Another TMET is already running!
 
 有关的报错信息如下:
